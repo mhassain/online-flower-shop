@@ -3,3 +3,204 @@ body{
     padding: 0;
     box-sizing: border-box;
 }
+
+/*======Conmmon Elements=====*/
+.container{
+    max-width: 1000px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 10%;
+}
+
+.btn{
+    font-size: 1rem;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: #E55473;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+}
+
+/*====Banner Section====*/
+ section.banner{
+    background-color: antiquewhite;
+ }
+
+ .hero-section{
+    display: flex;
+    flex-direction: row;
+ }
+
+.intro{
+   text-align: left;
+   padding-top: 100px;
+}
+
+.intro h1.heading{
+    font-size: 3.5rem;
+    text-align: left;
+    color: #272727;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+.intro p{
+    width:450px;
+    font-family: 'Lato', sans-serif;
+    color: #272727;
+}
+.flower-big img{
+    width: 500px;
+    height: 600px;
+}
+
+
+/*=====Featured Flower Section====*/
+
+.featured-flowers h3{
+    font-size: 2rem;
+    font-family: 'Lato', sans-serif;
+}
+
+.popular-flowers{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin: 10% 0 15%;
+}
+
+.popular-flower{
+    padding-bottom: 0px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 150px 150px 0 0;
+}
+.popular-flower p{
+    text-decoration: underline;
+    font-family: 'Lato', sans-serif;
+}
+.popular-flower_img_1{
+    background-color: #A72162;
+
+}
+.popular-flower_img_2{
+    background-color: #0597A0;
+
+}
+.popular-flower_img_3{
+    background-color: #477D11;
+
+}
+
+.popular-flower img{
+    width: 200px;
+    height: 300px;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: blanchedalmond;
+
+    padding: 5% 0;
+    margin-bottom: 7%;
+}
+
+.icon{
+    align-self: center;
+}
+.icon p{
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+}
+
+/*====Hot Deal Section===*/
+
+.hot-deal{
+    background-color: blanchedalmond;
+    max-height: 550px;
+}
+.best-deal{
+    display: flex;
+    flex-direction: row;
+    padding: 0 10% 20%;
+}
+.offer{
+    align-self: center;
+    padding-right: 100px;
+    
+}
+.offer h3{
+    font-size: 2rem;
+    font-family: 'Lato', sans-serif;
+}
+.pink{
+    color: #E55473;
+}
+
+.offer-image img{
+    width: 200px;
+    height: 300px;
+}
+
+/*====Instagram Section===*/
+
+.instagram h3{
+    font-size: 2rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+.insta-flowers{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin: 5% 0 15%;
+}
+
+.insta-flower{
+    margin-right: 15px;
+}
+
+.insta-flower img{
+    height: 300px;
+    width: 235px;
+}
+
+.subscribe{
+    background-image: url(assets/subscribe-image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+.sub{
+    padding: 80px 0;
+}
+
+.sub input{
+    padding: 13px 300px;
+    padding-left: 5px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 5px;
+    text-align: left;
+}
+/*====Footer Section======*/
+.footer{
+    margin-top: 100px;
+    background-color: black;
+    color: white;
+    padding-bottom: 70px;
+}
+.footer h3{
+    font-size: 2rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
